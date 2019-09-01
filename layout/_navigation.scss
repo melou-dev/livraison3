@@ -1,0 +1,16 @@
+.nounderline {
+    text-decoration: none;
+    color: #2c2a2a;
+}
+
+nav li a:hover {
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

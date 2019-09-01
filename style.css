@@ -58,14 +58,36 @@ html {
 }
 
 body {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #2c2a2a;
   line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  height: 20%;
 }
 
 /*=====================================================================================================
 HOME page - index.html
 =====================================================================================================*/
+.nounderline {
+  text-decoration: none;
+  color: #2c2a2a;
+}
+
+nav li a:hover {
+  text-transform: uppercase;
+}
+
+nav ul {
+  padding: 2% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 main .backgroundpicture {
   background-image: url(https://github.com/melou-dev/livraison3/blob/master/images/livraison3-bebebackground.jpg?raw=true);
 }
