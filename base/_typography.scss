@@ -7,7 +7,7 @@ body {
     font-size: 1rem;
     color: rgb(44, 42, 42);
     line-height: 1.5;
-/*    @include smartphone {
+    @include smartphone {
         font-size: 1.2rem;
     }
     @include laptop {
@@ -15,7 +15,7 @@ body {
     }
     @include desktop {
         font-size: 1.8rem;
-    }*/
+    }
 }
 
 
