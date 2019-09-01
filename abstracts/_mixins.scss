@@ -7,7 +7,7 @@ SCREEN
 Smartphone maximum*/
 
 @mixin smallsmartphone {
-    @media (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
         @content;
     }
 }
@@ -16,7 +16,7 @@ Smartphone maximum*/
 Smartphone minimum*/
 
 @mixin smartphone {
-    @media (min-width: 481px) {
+    @media only screen and (min-width: 481px) {
         @content;
     }
 }
@@ -25,7 +25,7 @@ Smartphone minimum*/
 Laptops minimum*/
 
 @mixin laptop {
-    @media (min-width: 769px) {
+    @media only screen and (min-width: 769px) {
         @content;
     }
 }
@@ -34,7 +34,7 @@ Laptops minimum*/
 Desktops minimum*/
 
 @mixin desktop {
-    @media (min-width: 1280px) {
+    @media only screen and (min-width: 1280px) {
         @content;
     }
 }

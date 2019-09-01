@@ -1,12 +1,3 @@
-/*====================================================================================================
-variable for brackpoints for media queries type SCREEN sp-smartphone - lt-laptop -  dt-desktop
-
-$screen-sp-max: 480px;
-$screen-sp-min: 481px;
-$screen-lt-min: 769px;
-$screen-dt-min: 1280px*/
-
-/*to avoid*/
 @media print {
     header, footer {
         display: none;
@@ -14,5 +5,12 @@ $screen-dt-min: 1280px*/
     body {
         font-size: 120%;
         color: black;
+    }
+}
+
+@media all and (max-width: 420px) {
+    section, figure, nav, article {
+        float: none;
+        width: auto;
     }
 }

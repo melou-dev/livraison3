@@ -4,10 +4,11 @@ html {
     }
 
 body {
-    font-size: 1rem;
+    font-size: 2rem;
     color: rgb(44, 42, 42);
     line-height: 1.5;
-    @include smartphone {
+}
+/*    @include smartphone {
         font-size: 1.2rem;
     }
     @include laptop {
@@ -15,8 +16,16 @@ body {
     }
     @include desktop {
         font-size: 1.8rem;
-    }
-}
+    }*/
 
+/*@media only screen and (min-width: 481) {
+     font-size: 1.5rem; 
+}*/
 
-
+article {
+    color: white;
+    font-size: 3rem;
+    font-style: inherit;
+    text-align: left;
+    padding : 20% 5% 50% 5%;
+} 
