@@ -64,17 +64,10 @@ body {
 }
 
 /*=====================================================================================================
-HEADER
-=====================================================================================================*/
-header {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  grid-gap: 1rem;
-}
-
-/*=====================================================================================================
 HOME page - index.html
 =====================================================================================================*/
+main .backgroundpicture {
+  background-image: url(https://github.com/melou-dev/livraison3/blob/master/images/livraison3-bebebackground.jpg?raw=true);
+}
 
 /*# sourceMappingURL=style.css.map */
